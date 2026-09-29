@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: rgb(20, 20, 20);
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: #b30000;
+    color: white;
+    padding: 20px;
+}
+
+.topo h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+main {
+    padding: 30px;
+    background-color: #f2f2f2;
+}
+
+.botao-destaque {
+    margin-bottom: 20px;
+}
+
+#apresentacao {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    background-color: rgb(210, 210, 210);
+    margin-bottom: 40px;
+}
+
+#apresentacao img {
+    flex: 1;
+    width: 100%;
+    height: 300px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+#apresentacao article {
+    flex: 1;
+}
+
+#destaques {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 14px;
+    margin-bottom: 20px;
+}
+
+#destaques .linha-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+#lista-personagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    width: 260px;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 280px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.card h2,
+.card h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.card p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+#fatos-the-boys {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+}
+
+.curiosidade {
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.curiosidade h3 {
+    margin-bottom: 8px;
+}
+
+footer {
+    background-color: #b30000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
